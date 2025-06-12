@@ -6,5 +6,6 @@ This study proposes a GNN model (chemical activity prediction of GyrA, CAP-GyrA)
 ## Data processing
 Running molpro.py for chemical structure cleaning and data_split.py for dataset splitting.
 ## Model training
+Users can customize the relevant hyperparameters for each experiment with yaml file in configs folder. The experiment can be run via the command:python ./hyperparameter-tuning/train.py --cfg ./configs/a_input_pro/a_input_pro.yaml --opts 'SEED' 3407 'MODEL.BRICS' True 'MODEL.F_ATT' True --tag seed_3407
 ## Hyperparameter tuning
 ## Interpretation of result
