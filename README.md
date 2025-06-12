@@ -1,5 +1,5 @@
 # Introduction
-This study proposes a GNN model (chemical activity prediction of GyrA, CAP-GyrA) based on a two-stream neural network architecture, which integrates chemical and BRICS molecular fragment structural representations. The model is designed to predict the inhibitory activity of chemicals on GyrA of Escherichia coli.
+This study proposes a GNN model (chemical activity prediction on GyrA, CAP-GyrA) based on a two-stream neural network architecture, which integrates chemical and BRICS molecular fragment structural representations. The model is designed to predict the inhibitory activity of chemicals on GyrA of Escherichia coli.
 
 # Usage
 ## Data processing
