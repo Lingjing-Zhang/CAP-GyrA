@@ -1,0 +1,34 @@
+OUTPUT_DIR: './test/a_input_pro'
+TAG: 'default'
+SEED: 3407
+NUM_FOLDS: 10
+HYPER: True
+HYPER_REMOVE: None
+NUM_ITERS: 100
+
+
+DATA:
+  DATASET: 'a_input_plus_random'
+  DATA_PATH: './data/a_input_pro/'
+  TASK_TYPE: 'regression'
+  METRIC: 'R2'
+  SPLIT_TYPE: 'random'
+  
+
+MODEL:
+  F_ATT: False
+  BRICS: False
+  
+
+LOSS:
+  FL_LOSS: False
+  CL_LOSS: False
+
+
+TRAIN:
+  EARLY_STOP: 50
+  MAX_EPOCHS: 500
+  OPTIMIZER:
+    TYPE: 'adam'
+  LR_SCHEDULER:
+    TYPE: 'reduce'
